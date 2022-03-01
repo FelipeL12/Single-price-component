@@ -1,0 +1,158 @@
+:root {
+    --color_cyan: hsl(179, 62%, 43%);
+    --color_white_cyan: hsl(179, 50%, 58%);
+    --color_bright_yellow: hsl(71, 73%, 54%);
+    --color_light_gray: hsl(204, 43%, 93%);
+    --color_grayish_blue: hsl(218, 22%, 67%);
+    --color_white: hsl(221, 0%, 100%);
+    --color_black: hsl(221, 0%, 0%);
+
+}
+
+/* GLOBAL */
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    background-color: var(--color_grayish_blue);
+}
+
+/* UTILITIES */
+
+.grid {
+    display: grid;
+}
+
+
+/* BUTTONS */
+.button_sign_up {
+    width: 100%;
+    background-color: var(--color_bright_yellow);
+    border: none;
+    border-radius: 0.8rem;
+    padding: 1.5rem;
+    color: var(--color_white);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* MAIN CONTENT */
+
+.main_container {
+    width: 100%;
+    display: flex;
+}
+
+/* GRID_CONTAINER */
+.grid_container {
+    width: 100%;
+    margin: 10% 5% 10% 5%;
+}
+
+/* JOIN_CONTAINER */
+
+.join_container {
+    background-color: var(--color_white);
+    width: 100%;
+}
+
+.join_container :nth-child(1) {
+    font-weight: 700;
+    font-size: 2.2rem;
+    color: var(--color_cyan);
+    margin: 10% 7% 5% 7%;
+}
+
+.join_container :nth-child(2) {
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: var(--color_bright_yellow);
+    margin: 0 7% 5% 7%;
+}
+
+.join_container :nth-child(3) {
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: var(--color_grayish_blue);
+    text-align: justify;
+    line-height: 3rem;
+    margin: 0 7% 15% 7%;
+}
+
+/* SUBSCRIPTION_CONTAINER */
+
+.subscription_container {
+    width: 100%;
+    background-color: var(--color_cyan);
+}
+
+.subscription_container p {
+    color: var(--color_white);
+}
+
+.subscription_container :nth-child(1) {
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin: 10% 7% 5% 7%;
+}
+
+.subscription_container :nth-child(2) {
+    font-weight: 700;
+    font-size: 3.2rem;
+    margin: 0 7% 5% 7%;
+}
+
+.subscription_container p :last-child {
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: var(--color_grayish_blue);
+    margin-left: 0.5rem;
+}
+
+.subscription_container :nth-child(3) {
+    font-weight: 400;
+    font-size: 1.6rem;
+    margin: 0 7% 0 7%;
+}
+
+.sign_up {
+    width: 100%;
+    display: flex;
+    margin-bottom: 4%;
+}
+
+.button_sign_up :hover {
+    cursor: pointer;
+}
+
+/* WHY_US_CONTAINER */
+
+.why_us_container {
+    width: 100%;
+    background-color: var(--color_white_cyan);
+    color: var(--color_white);
+}
+
+.why_us_container :nth-child(1) {
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin: 5% 7% 5% 7%;
+}
+
+.why_us_container :nth-child(2) {
+    font-weight: 400;
+    font-size: 1.4rem;
+    /* text-align: justify; */
+    line-height: 2.3rem;
+    margin: 5% 35% 5% 7%;
+}
+
+
+@media (min-width: 1000px) {}
